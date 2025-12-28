@@ -1,4 +1,4 @@
-//checking conditions 
+//checking conditions through if else  
 
 
 let stock =3;
