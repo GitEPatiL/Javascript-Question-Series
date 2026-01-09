@@ -1,0 +1,152 @@
+# JavaScript Question Series — Folder-wise Split
+
+This document maps **100 questions** into your existing repo structure.
+
+---
+
+## 📁 01-basics.md
+
+1. Reverse a string.
+2. Check if a string is a palindrome.
+3. Count vowels in a string.
+4. Capitalize the first letter of each word in a sentence.
+5. Truncate a string to a given length.
+6. Convert a string to camelCase.
+7. Check if two strings are anagrams.
+8. Remove duplicate characters from a string.
+9. Count occurrences of a character in a string.
+10. Reverse words in a sentence.
+11. Check if a number is even or odd.
+12. Convert Celsius to Fahrenheit.
+13. Find the largest among three numbers.
+14. Sum digits of a number.
+15. Check if a year is a leap year.
+
+---
+
+## 📁 02-functions.md
+
+16. Write a function to check if a string is a palindrome.
+17. Write a function to return the area of a rectangle.
+18. Create a function to convert minutes to seconds.
+19. Write a function that returns the sum of two numbers.
+20. Create a function that returns the maximum of three numbers.
+21. Write a function that counts the number of arguments passed.
+22. Create a function that returns a random number between two values.
+23. Write a function that checks if input is an array.
+24. Write a function that repeats a string `n` times.
+25. Implement function currying.
+26. Implement memoization for a function.
+27. Write a debounce function.
+28. Write a throttle function.
+
+---
+
+## 📁 03-arrays-objects.md
+
+29. Find the largest number in an array.
+30. Remove duplicates from an array.
+31. Sort an array of numbers in ascending order.
+32. Count even and odd numbers in an array.
+33. Sum all numbers in an array.
+34. Find the index of a given element in an array.
+35. Reverse an array in-place.
+36. Find the second largest number in an array.
+37. Merge two sorted arrays.
+38. Rotate an array by `k` positions.
+39. Count keys in an object.
+40. Merge two objects.
+41. Find the key with the highest value in an object.
+42. Convert an object to an array of key-value pairs.
+43. Clone an object (shallow vs deep).
+44. Check if a key exists in an object.
+45. Sum all numeric values in an object.
+46. Swap keys and values in an object.
+47. Create an object from two arrays.
+48. Remove properties with null or undefined values.
+
+---
+
+## 📁 04-async-js.md
+
+49. Explain synchronous vs asynchronous JavaScript.
+50. Explain the event loop.
+51. Create and use a Promise.
+52. Convert callback-based code to Promise-based.
+53. Use async/await with proper error handling.
+54. Run multiple promises in parallel.
+55. Explain `Promise.all` vs `Promise.allSettled`.
+56. Explain microtasks vs macrotasks with example.
+
+---
+
+## 📁 05-closures.md
+
+57. Explain closures with example.
+58. Create a counter using closures.
+59. Explain lexical scope.
+60. Explain execution context.
+61. Explain call stack.
+62. Explain garbage collection.
+63. Explain memory leaks in JavaScript.
+64. Demonstrate temporal dead zone.
+
+---
+
+## 📁 06-this.md
+
+65. Explain `this` keyword.
+66. `this` in arrow functions.
+67. Explain call(), apply(), and bind().
+68. Fix `this` binding issues.
+69. Method borrowing using call().
+70. `this` inside event listeners.
+71. `this` inside classes.
+
+---
+
+## 📁 07-dom.md
+
+72. Select and change text of an HTML element.
+73. Create and append a new element.
+74. Remove an element from the DOM.
+75. Change style of an element using JavaScript.
+76. Show an alert on button click.
+77. Change text on mouse hover.
+78. Prevent form submission and show alert.
+79. Show character count as user types.
+80. Hide/show password using JavaScript.
+81. Add/remove list items dynamically.
+82. Create and populate a table dynamically.
+
+---
+
+## 📁 08-es6.md
+
+83. Explain ES6 modules.
+84. Difference between import and require.
+85. Named vs default exports.
+86. Use optional chaining.
+87. Use nullish coalescing operator.
+88. Use rest and spread operators.
+89. Use Set and Map.
+90. Use WeakMap and WeakSet.
+
+---
+
+## 📁 09-advanced.md
+
+91. Implement map() polyfill.
+92. Implement filter() polyfill.
+93. Implement reduce() polyfill.
+94. Implement bind() polyfill.
+95. Implement binary search.
+96. Implement merge sort or quick sort.
+97. Prevent basic XSS when using innerHTML.
+98. Explain CORS with fetch example.
+99. Measure performance using performance.now().
+100. Write JavaScript best practices for clean code.
+
+---
+
+This structure is **interview-ready**, **practice-focused**, and logically progressive.
