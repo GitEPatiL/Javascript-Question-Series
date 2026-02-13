@@ -22,7 +22,6 @@ This document maps **100 questions** into your existing repo structure.
 14. Sum digits of a number.
 15. Check if a year is a leap year.
 
----
 
 ## 📁 02-functions.md
 
