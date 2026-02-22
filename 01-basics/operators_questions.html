@@ -7,52 +7,59 @@
   </head>
   <body>
     <script>
-      // Here are some Basic Problems that you have to try
-      // 1)
-      // Print the area of the circle in the first line
-      // Print the perimeter of the circle in the second line
-      // area of circle = pi*r*r
-      //perimeter of circle = 2 * pi * r
+      // ==========================================
+      // Problem 1: Area and Perimeter of a Circle
+      // ==========================================
+      {
+        // Formulae:
+        // Area = pi * r * r
+        // Perimeter = 2 * pi * r
 
-      //   let r = prompt("Enter The radius = ");
-      //   let pi = 3;
-      //   var area = pi * r * r;
-      //   var perimeter = 2 * pi * r;
-      //   console.log(area);
-      //   console.log(perimeter);
-      //   document.write(area);
-      //   document.write(perimeter);
+        let r = 5; // Example radius
+        const pi = 3.14159;
+        
+        let area = pi * r * r;
+        let perimeter = 2 * pi * r;
 
-      // 2) basic arithmetic operations
-      // The first line of the output should contain the sum of A and B.
-      // The second line of the output should contain the difference of A and B.
-      // The third line of the output should contain the product of A and B.
-      // The fourth line of the output should contain the quotient of A divided by B.
-      // The fifth line of the output should contain the remainder of A divided by B.
-      
-      let a = 8;
-      let b = 3;
+        console.log("--- Problem 1: Circle ---");
+        console.log("Area:", area);
+        console.log("Perimeter:", perimeter);
+      }
 
-      let sum = a+b; // this is the sum
-      let sub=a-b; //this is the difference 
-      let product = a*b;//product
-      let quotient = a/b;//quotient
-      let remainder = a%b;//remainder
-      console.log(sum)
-      console.log(sub)
-      console.log(product)
-      console.log(quotient)
-      console.log(remainder)
-      
-      // if the n value is 28 only the print i am young
+      // ==========================================
+      // Problem 2: Basic Arithmetic Operations
+      // ==========================================
+      {
+        let a = 8;
+        let b = 3;
 
-      let n = 28;
-      switch (n) {
-        case 28:
-          console.log("i am young");
-          break;
-        default:
-          console.log("i am not young");
+        let sum = a + b;
+        let diff = a - b;
+        let product = a * b;
+        let quotient = a / b;
+        let remainder = a % b;
+
+        console.log("--- Problem 2: Arithmetic ---");
+        console.log("Sum:", sum);
+        console.log("Difference:", diff);
+        console.log("Product:", product);
+        console.log("Quotient:", quotient);
+        console.log("Remainder:", remainder);
+      }
+
+      // ==========================================
+      // Problem 3: Switch Case (Age Check)
+      // ==========================================
+      {
+        let n = 28;
+        console.log("--- Problem 3: Age Check ---");
+        switch (n) {
+          case 28:
+            console.log("I am young");
+            break;
+          default:
+            console.log("I am not young");
+        }
       }
     </script>
 
@@ -73,22 +80,25 @@ Print VERIFIED if equal, otherwise NOT VERIFIED
 -->
 
     <script>
-      let A = 4;
-      let B = 5;
+      {
+        console.log("--- Problem 4: Verify (A+B)^3 ---");
+        let A = 4;
+        let B = 5;
 
-      // LHS
-      let LHS = (A + B) * (A + B) * (A + B);
+        // LHS
+        let LHS = (A + B) ** 3;
 
-      // RHS
-      let RHS = A * A * A + B * B * B + 3 * A * A * B + 3 * A * B * B;
+        // RHS
+        let RHS = A ** 3 + B ** 3 + 3 * (A ** 2) * B + 3 * A * (B ** 2);
 
-      console.log(LHS);
-      console.log(RHS);
+        console.log("LHS:", LHS);
+        console.log("RHS:", RHS);
 
-      if (LHS === RHS) {
-        console.log("VERIFIED");
-      } else {
-        console.log("NOT VERIFIED");
+        if (LHS === RHS) {
+          console.log("VERIFIED");
+        } else {
+          console.log("NOT VERIFIED");
+        }
       }
     </script>
 
@@ -106,29 +116,26 @@ Number of days in that month
 -->
 
     <script>
-      let M = 3; // Change month number here
+      {
+        console.log("--- Problem 5: Days in Month ---");
+        let M = 3; // Change month number here
+        let days;
 
-      let days;
-
-      if (
-        M === 1 ||
-        M === 3 ||
-        M === 5 ||
-        M === 7 ||
-        M === 8 ||
-        M === 10 ||
-        M === 12
-      ) {
-        days = 31;
-      } else if (M === 4 || M === 6 || M === 9 || M === 11) {
-        days = 30;
-      } else if (M === 2) {
-        days = 28; // Non-leap year
-      } else {
-        days = "Invalid Month";
+        switch (M) {
+          case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+            days = 31;
+            break;
+          case 4: case 6: case 9: case 11:
+            days = 30;
+            break;
+          case 2:
+            days = 28; // Non-leap year
+            break;
+          default:
+            days = "Invalid Month";
+        }
+        console.log(`Month ${M} has ${days} days.`);
       }
-
-      console.log(days);
     </script>
 
     <!--
@@ -140,25 +147,29 @@ Print true or false.
 -->
 
     <script>
-      let h1 = 4; // Gian height
-      let h2 = 2; // Suneo height
-      let v1 = 2; // Gian speed
-      let v2 = 4; // Suneo speed
+      {
+        console.log("--- Problem 6: Height Comparison ---");
+        let h1 = 4; // Gian height
+        let h2 = 2; // Suneo height
+        let v1 = 2; // Gian speed
+        let v2 = 4; // Suneo speed
 
-      let equal = false;
+        let equal = false;
 
-      // Check for up to 10000 seconds (safe limit)
-      for (let t = 0; t <= 10000; t++) {
-        let height1 = h1 + v1 * t;
-        let height2 = h2 + v2 * t;
+        // Check for up to 10000 seconds (safe limit)
+        for (let t = 0; t <= 10000; t++) {
+          let height1 = h1 + v1 * t;
+          let height2 = h2 + v2 * t;
 
-        if (height1 === height2) {
-          equal = true;
-          break;
+          if (height1 === height2) {
+            equal = true;
+            console.log(`Heights become equal at t=${t}`);
+            break;
+          }
         }
-      }
 
-      console.log(equal);
+        console.log("Will heights be equal?", equal);
+      }
     </script>
   </body>
 </html>
