@@ -1,0 +1,132 @@
+//calculate sum of first n numbers
+
+//calculate the sum of numbers from m to n
+
+//print all odd numbers  from 0 to n;
+
+//create a "Number Knock" game . (ask the user to keep guessing the number until yhe user enters correct number );
+
+//simple passowrd checker ;
+
+//create to program to find the  factorial of n
+
+//print all the following pattern
+
+// 1
+// 1 2
+// 1 2 3
+// 1 2 3 4 
+// 1 2 3 4 5
+
+
+
+# 100 JavaScript loop problems — basic → advanced
+
+## Basic (1–30)
+
+1. Print numbers 1 through 10 using a `for` loop.
+2. Print even numbers from 2 to 20 using a `while` loop.
+3. Print odd numbers from 1 to 19 using a `do...while` loop.
+4. Sum numbers 1 to N; implement `sum(n)` using a loop.
+5. Compute factorial of N using a loop (no recursion).
+6. Print the multiplication table for a given integer `x` (1×x to 10×x).
+7. Count the digits of a positive integer using loops (no string conversion).
+8. Reverse a string using a `for` loop (no built-in reverse).
+9. Check if a string is a palindrome using loops (case-insensitive).
+10. Remove duplicates from an array using loops only (no Set).
+11. Find the maximum and minimum in an array using a single loop.
+12. Compute the average of numbers in an array using loops.
+13. Merge two arrays into one using a loop (preserve order).
+14. Filter an array to keep only numbers > X using a loop.
+15. Count occurrences of a value in an array using loops.
+16. Replace all occurrences of a value in an array using a loop.
+17. Create an array of first N Fibonacci numbers using loops.
+18. Find the first index of a value in an array using a loop (return -1 if not found).
+19. Flatten a one-level nested array (e.g., `[1,[2,3],4]`) using loops (no `flat`).
+20. Print a right-angled triangle of `*` of height N using nested loops.
+21. Print a square pattern of size N using nested loops.
+22. Print a hollow square pattern of size N using loops.
+23. Print a pyramid (centered) of `*` of height N using loops.
+24. Generate array `[1,2,...,N]` using a loop.
+25. Shift array elements right by one position using loops (circular shift).
+26. Rotate array left by K positions using loops (in-place if possible).
+27. Reverse an array in-place using a loop (no extra array).
+28. Remove falsy values (`false`, `0`, `""`, `null`, `undefined`, `NaN`) from array using loops.
+29. Count vowels and consonants in a string using loops.
+30. Compute sum of digits of a number using loops.
+
+## Intermediate (31–70)
+
+31. Generate prime numbers up to N using loops (sieve is optional but loops required).
+32. Check if a number is prime using an efficient loop (stop at √n).
+33. Print all prime numbers in a range [a, b] using nested loops.
+34. Given array of numbers, produce cumulative sum array using a loop.
+35. Implement `map` using a loop: `myMap(arr, fn)`.
+36. Implement `filter` using a loop: `myFilter(arr, predicate)`.
+37. Implement `reduce` using a loop: `myReduce(arr, fn, initial)`.
+38. Remove consecutive duplicates from an array using loops.
+39. Given array of strings, group by first letter using loops (return object).
+40. Count frequency of each word in a string using loops (ignore punctuation).
+41. Implement `range(a, b, step)` that returns array using a loop.
+42. Given two sorted arrays, merge them into one sorted array using loops (O(m+n)).
+43. Find the second largest number in an array using a single pass loop.
+44. Find all pairs in an array whose sum equals target using loops (O(n²) baseline).
+45. Find longest increasing contiguous subarray length using loops.
+46. Implement selection sort using nested loops.
+47. Implement insertion sort using loops.
+48. Implement bubble sort using loops and an early-exit optimization.
+49. Given matrix (2D array), compute sum of each row and each column using loops.
+50. Transpose a matrix using nested loops.
+51. Rotate a matrix 90° clockwise using loops.
+52. Print matrix elements in spiral order using loops.
+53. Find saddle points in a matrix using loops.
+54. Given string, produce all prefixes using loops.
+55. Given string, produce all suffixes using loops.
+56. Given array, find longest common prefix among its strings using loops.
+57. Implement `flatten` for arbitrary-depth nested arrays using loops (use stack).
+58. Implement array chunking into subarrays of size K using loops.
+59. Given array of objects, remove objects with duplicate key value using loops.
+60. Stable partition array by predicate using loops (preserve relative order).
+61. Given two arrays, compute intersection using loops (no Set).
+62. Given array and window size k, compute sliding window maximums using loops (O(n*k) baseline).
+63. Given a string, count distinct substrings of length K using loops.
+64. Validate parentheses balance using a loop and stack implemented with an array.
+65. Given nested arrays representing directory tree, traverse and print paths using loops.
+66. Simulate snail/zig-zag traversal of a 2D array using loops.
+67. Given a list of tasks with durations, pack them greedily into bins of capacity C using loops.
+68. Implement integer to binary string conversion using loops (no `toString`).
+69. Implement binary addition of two binary strings using loops.
+70. Given array of numbers, move all zeros to end preserving relative order using loops (in-place).
+
+## Advanced (71–100)
+
+71. Detect cycles in an array treated as pointers using loops (Floyd’s cycle-finding algorithm; implement loop version).
+72. Implement Rabin–Karp rolling hash substring search using loops.
+73. Implement Boyer–Moore bad-character heuristic loop for substring search (simplified).
+74. Compute longest palindromic substring using expand-around-center with loops.
+75. Implement Kadane’s algorithm using loops to find max subarray sum.
+76. Given stream-like iterable (sync), implement `take(n)` using a `for...of` loop.
+77. Implement an iterator over a nested array (like flatten) using loops (return object with `next()`).
+78. Implement a generator function that yields infinite Fibonacci numbers using `while` loop and `yield`.
+79. Implement custom `forEachAsync` that awaits async callback calls sequentially using `for...of`.
+80. Given an async iterable, consume it with `for await...of` and aggregate results (demonstrate loop usage).
+81. Implement matrix multiplication (A×B) using three nested loops.
+82. Optimize nested loops for matrix multiplication using loop reordering (experiment and measure).
+83. Implement Conway’s Game of Life update step using loops (in-place or extra grid).
+84. Given directed graph adjacency list, perform iterative DFS using a stack and loops (no recursion).
+85. Implement iterative BFS using queue and loops; return distances from source.
+86. Topologically sort a DAG using Kahn’s algorithm implemented with loops.
+87. Detect strongly connected components using Kosaraju iteratively (use explicit stacks and loops).
+88. Implement Dijkstra using loops and an array-based priority queue (no `Map`/`Set` optimizations).
+89. Implement Bellman-Ford using loops and detect negative cycle.
+90. Given large file line-by-line (simulated by array), process in fixed-size chunks using loops and backpressure simulation.
+91. Implement loop-unrolled version for summing an array (explain speed tradeoffs).
+92. Write a micro-benchmark comparing `for`, `for...of`, `while`, and `forEach` for summing numbers; report results and analysis.
+93. Convert a recursive tree traversal into an iterative loop-based traversal using an explicit stack.
+94. Implement an LRU cache eviction using loops (array-backed) with set/get operations.
+95. Given streaming numeric data, compute running median using two heaps simulated with arrays and loops.
+96. Implement a circular buffer with fixed capacity using loops and modular arithmetic.
+97. Given a very large array, implement chunked async processing: process each chunk in a `for` loop with `await` and return aggregated result.
+98. Implement a loop that polls an API until a condition is met, with exponential backoff and max retries (simulate with async function).
+99. Given thousands of DOM nodes (simulated as objects), perform batched updates using loops to avoid blocking UI — implement chunking with `requestIdleCallback`/`setTimeout` simulation.
+100. Analyze and refactor a provided nested-loop O(n²) algorithm into an O(n log n) or O(n) solution where possible; explain loop changes and complexity improvements (provide a concrete example such as pair-sum → hash map or sorting + two-pointer).
