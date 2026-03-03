@@ -3,5 +3,14 @@
 // Write your solution below:
 function sum(n) {
     // Your code here
+ let totalSum =0;
+    for(let i=1;i<=n;i++){    
+        totalSum+=n;
+
+    }
+    return totalSum;
 }
+
+let result = sum(5)
+console.log(result)
 
