@@ -10,3 +10,5 @@ let table = (x) => {
   return;
 };
 console.log(table(3))
+
+
