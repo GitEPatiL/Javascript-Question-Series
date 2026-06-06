@@ -2,7 +2,16 @@
 
 // Write your solution below:
 
-for(let i=1;i<=10;i++){
-    console.log(i)
+// for(let i=1;i<=10;i++){
+//     console.log(i)
+// }
+
+function bappa(num){
+    for(let i=num;i<=10;i++){
+        console.log(i)
+    }
 }
+
+let result =bappa(1)
+console.log(result)
 
