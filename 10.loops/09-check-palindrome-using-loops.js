@@ -5,3 +5,5 @@ function isPalindrome(str) {
     // Your code here
 }
 
+console.log("hiiii")
+
